@@ -1,0 +1,19 @@
+playerFullname = input("Please enter your FULL NAME. --> ")
+
+playerAge = input("Please enter your AGE. --> ")
+
+playerGender = input("Please enter your GENDER. --> ")
+
+playerHobby = input("Please enter a preferred hobby / topic you are interested in. --> ")
+
+playerFavfood = input("Please enter your favorite food. --> ")
+print(""" 
+
+
+        Info Writer will now type out a description of everything  you have just said. Please wait.
+""")
+
+import time
+time.sleep(3)
+
+print("Hello. My name is " + playerFullname + ". I am " + playerAge + " years old. My preffered gender is " + playerGender + ". Something I like to do in my freetime is " + playerHobby + ". My favorite food is " + playerFavfood + ".")
